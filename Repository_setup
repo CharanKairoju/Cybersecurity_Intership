@@ -1,0 +1,102 @@
+cybersecurity-internship-tasks/
+├── README.md
+├── .gitignore
+├── LICENSE
+├── CONTRIBUTING.md
+├── Task1-Network-Assessment/
+│   ├── README.md
+│   ├── scripts/
+│   │   ├── network_scanner.sh
+│   │   ├── vulnerability_analyzer.py
+│   │   └── report_generator.py
+│   ├── scans/
+│   │   ├── nmap_results/
+│   │   │   ├── host_discovery.txt
+│   │   │   ├── port_scan_results.txt
+│   │   │   └── service_enumeration.txt
+│   │   ├── nessus_reports/
+│   │   │   ├── vulnerability_scan.nessus
+│   │   │   └── executive_summary.pdf
+│   │   └── wireshark_captures/
+│   │       ├── network_traffic.pcap
+│   │       └── protocol_analysis.txt
+│   ├── reports/
+│   │   ├── vulnerability_assessment_report.pdf
+│   │   ├── executive_summary.md
+│   │   └── technical_findings.md
+│   └── screenshots/
+│       ├── nmap_scan_results.png
+│       ├── nessus_dashboard.png
+│       └── wireshark_analysis.png
+├── Task2-Web-Penetration-Testing/
+│   ├── README.md
+│   ├── scripts/
+│   │   ├── web_vulnerability_scanner.py
+│   │   ├── sql_injection_tester.py
+│   │   ├── xss_payload_generator.py
+│   │   └── burp_automation.py
+│   ├── exploits/
+│   │   ├── sql_injection_poc.py
+│   │   ├── xss_payloads.txt
+│   │   └── csrf_exploit.html
+│   ├── burp_reports/
+│   │   ├── automated_scan_results.xml
+│   │   ├── manual_testing_findings.xml
+│   │   └── vulnerability_summary.pdf
+│   ├── reports/
+│   │   ├── penetration_test_report.pdf
+│   │   ├── owasp_top10_analysis.md
+│   │   └── remediation_guide.md
+│   └── screenshots/
+│       ├── burp_suite_results.png
+│       ├── sql_injection_demo.png
+│       ├── xss_exploitation.png
+│       └── owasp_zap_scan.png
+├── documentation/
+│   ├── methodology.md
+│   ├── tools_configuration.md
+│   ├── ethical_guidelines.md
+│   └── learning_outcomes.md
+├── resources/
+│   ├── cvss_scoring_guide.md
+│   ├── vulnerability_database.md
+│   ├── remediation_templates/
+│   └── useful_links.md
+└── assets/
+    ├── logos/
+    ├── diagrams/
+    └── presentations/
+Essential Files to Create
+1. .gitignore
+gitignore# Sensitive data
+*.pcap
+passwords.txt
+credentials/
+private_keys/
+
+# Tool specific
+.burp/
+.nessus/
+*.nessus
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+temp/
