@@ -28,30 +28,6 @@ This internship involved performing comprehensive security assessments across mu
 
 ---
 
-## 📁 Repository Structure
-
-Cybersecurity_Internship/
-│
-├── reports/
-│ ├── Network_Vulnerability_Assessment_Report.md
-│ └── Web_Application_Penetration_Report.md
-│
-├── tools-output/
-│ ├── nmap_scans/
-│ ├── nessus_reports/
-│ ├── burp_logs/
-│ └── wireshark_pcaps/
-│
-├── screenshots/
-│ └── key-findings/
-│
-├── custom-scripts/
-│ └── ftp-default-check.py
-│
-└── README.md
-
----
-
 ## 📄 Key Deliverables
 
 ### 🛡️ Network Vulnerability Assessment
