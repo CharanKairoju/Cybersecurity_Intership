@@ -1,0 +1,29 @@
+# Task 2: Web Application Penetration Testing
+
+## Overview
+Security assessment of web applications focusing on OWASP Top 10 vulnerabilities.
+
+## Tools Used
+- **Burp Suite**: Web application security testing
+- **OWASP ZAP**: Automated vulnerability scanning
+- **Custom Scripts**: Targeted exploitation testing
+
+## Testing Scope
+- SQL Injection testing
+- Cross-Site Scripting (XSS)
+- Cross-Site Request Forgery (CSRF)
+- Authentication bypass
+- Directory traversal
+
+## Vulnerabilities Identified
+- SQL Injection: 2 instances
+- Stored XSS: 1 instance
+- Reflected XSS: 3 instances
+- CSRF: 2 instances
+- Authentication flaws: 1 instance
+
+## Files Structure
+- `scripts/`: Testing automation scripts
+- `exploits/`: Proof-of-concept exploits
+- `burp_reports/`: Burp Suite scan results
+- `reports/`: Detailed penetration test reports
