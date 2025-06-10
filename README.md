@@ -50,10 +50,6 @@ Cybersecurity_Internship/
 │
 └── README.md
 
-yaml
-Copy
-Edit
-
 ---
 
 ## 📄 Key Deliverables
